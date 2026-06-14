@@ -1,0 +1,69 @@
+# macOS / Windows system files
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / IDE files
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Environment files
+
+.env
+.env.local
+*.env
+
+# Logs
+
+*.log
+logs/
+
+# Python cache files
+
+**pycache**/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Database dumps / local database files
+
+*.dump
+*.backup
+*.bak
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary exports
+
+exports/
+temp/
+tmp/
+
+# Large raw data files not meant for Git
+
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# ignore generated result exports
+
+*.csv~
+*.xlsx~
+*.xls~
+
+# Keep project documentation and SQL files tracked
+
+!README.md
+!DATA_LICENSE.md
+!LICENSE
+!*.sql
+!*.md
+!assets/*.png
